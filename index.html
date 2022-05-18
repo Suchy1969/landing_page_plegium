@@ -1,7 +1,7 @@
 
 <!doctype html>
 <html>
-    <head>    
+    <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!-- Optional theme -->
@@ -14,15 +14,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
-	        <meta name="viewport" content="width=device-width, initial-scale=1">
-         
+<meta name="viewport" content="width=device-width, initial-scale=1">
           <meta charset="UTF-8" />
           
           <style>
-		  img{
-		  max-width:100%;
-		  }
-            p{
+              img{
+                  max-width: 100%;
+              }
+          p{
                 color:#213970 !important;
               }
  b{
@@ -70,6 +69,9 @@ text-decoration:none;
                 .icons img  {
                     margin-top: 40px;
   }
+  .slider table {
+        margin-top:80px;
+    }
 }
             .icons{
                 margin-top:30px;
@@ -80,11 +82,8 @@ text-decoration:none;
     margin-left: auto;
     margin-right: auto;
 }
-       
-        .carousel{
-            height: 450px;  
-            height: 598px;
-        }
+
+        
        .carousel-item img{
         margin: auto;
         width: 450px;
@@ -100,6 +99,7 @@ text-decoration:none;
         text-align: center;
         color: #213970 !important;
     }
+    
 .aplikacje{
    font-size: 38px !important;
    font-family: Montserrat !important;
@@ -292,8 +292,11 @@ width:238px;
 table{
     width: 100%;
 }
-.table_description{
+.table_header p{
 height:82px;
+font-size: 20px !important;
+font-weight: 600 !important;
+
 }
 .padding-left-text{
 padding-left:25px;
@@ -302,13 +305,17 @@ padding-top: 30px;
 .margin_bottom{
 margin-bottom:20px !important;
 }
-
+.table_description p{
+    height: 90px;
+    margin-top:40px;
+    font-size:18px !important;
+    font-weight: 600 !important;
+}
 
 
           </style>
     </head>
      <body>
-          
         <div class="container ss">
             <div class="row">
             <div class="col-12 flex_center ">
@@ -342,27 +349,27 @@ margin-bottom:20px !important;
             <div class="row slider flex_center">
                 <div class="col-md-12 col-lg-6 flex_center">
                     <table>
-                        <tr><td class="table_description">
+                        <tr><td class="table_header">
 
-                    <p>ŁATWA KONFIGURACJA</p>
+                    <p style="padding-top: 15px; ">ŁATWA KONFIGURACJA</p>
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td><div style="height:450px ;">
                     <div id="carouselExampleDark-left" class="carousel carousel-dark slide " data-bs-ride="carousel">
                         
                     <div class="carousel-inner ">
                         <div class="carousel-item active data-bs-interval="10000">
-                            <img src="images/slide_1.png" class="d-block " alt="praca 1">
+                            <img src="images/slide_aplikacja_1.png" class="d-block " alt="praca 1">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/slide_1.png" class="d-block " alt="praca 2" data-bs-interval="2000">
+                            <img src="images/slide_aplikacja_2.png" class="d-block " alt="praca 2" data-bs-interval="2000">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/slide_1.png" class="d-block " alt="praca 3" >
+                            <img src="images/slide_aplikacja_3.png" class="d-block " alt="praca 3" >
                         </div>
                         <div class="carousel-item">
-                            <img src="images/slide_1.png" class="d-block " alt="praca 3">
+                            <img src="images/slide_aplikacja_4.png" class="d-block " alt="praca 3">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark-left" data-bs-slide="prev">
@@ -374,13 +381,21 @@ margin-bottom:20px !important;
                         <span class="visually-hidden">Next</span>
                       </button>
                 </div>
+            </div>
             </td>
+            </tr>
+            <tr><td class="table_description">
+
+                    <p>Pobierz na smartfon bezpłatną aplikację</br>
+                    Plegium dostępną</br>
+                    na AppStore lub Google Play.</p>
+                </td>
             </tr>
             </table>
             </div>
             
             <div class="col-md-12 col-lg-6 flex_center"> <table>
-                <tr><td>
+                <tr><td class="table_header">
 
             <p>SPOSÓB UŻYCIA </br>  
                 GAZÓW PIEPRZOWYCH PLEGIUM</p>
@@ -388,20 +403,21 @@ margin-bottom:20px !important;
         </tr>
         <tr>
             <td>
+                <div style="height:450px ;">
                 <div id="carouselExampleDark-right" class="carousel carousel-dark slide " data-bs-ride="carousel">
                 
                 <div class="carousel-inner ">
                     <div class="carousel-item active data-bs-interval="10000">
-                        <img src="images/slide_2.png" class="d-block " alt="praca 1">
+                        <img src="images/slide_uzycie_1.png" class="d-block " alt="praca 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/slide_2.png "class="d-block " alt="praca 2" data-bs-interval="2000">
+                        <img src="images/slide_uzycie_2.png "class="d-block " alt="praca 2" data-bs-interval="2000">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/slide_2.png" class="d-block " alt="praca 3" >
+                        <img src="images/slide_uzycie_3.png" class="d-block " alt="praca 3" >
                     </div>
                     <div class="carousel-item">
-                        <img src="images/slide_2.png" class="d-block " alt="praca 3">
+                        <img src="images/slide_uzycie_4.png" class="d-block " alt="praca 3">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark-right" data-bs-slide="prev">
@@ -413,6 +429,13 @@ margin-bottom:20px !important;
                     <span class="visually-hidden">Next</span>
                   </button>
             </div>
+        </div>
+        </td>
+    </tr>
+    <tr><td class="table_description">
+
+        <p>Wsuń kciuk pod pokrywę</br>
+            zabezpieczającą urządzenie.</p>
         </td>
     </tr>
     </table>
@@ -444,15 +467,15 @@ margin-bottom:20px !important;
             </div>
             <div class="row example_picture">
             <div class="col-md-12 col-lg-4 flex_center">
-            <img src="images/example_picture_1.png" style="width:100%">
-            </div>
-            <div class="col-md-12 col-lg-4 flex_center" >
-            
-                <img src="images/example_picture_2.png" style="width:100%">
+            <img src="images/example_picture_1.png">
             </div>
             <div class="col-md-12 col-lg-4 flex_center">
             
-                <img src="images/example_picture_3.png" style="width:100%">
+                <img src="images/example_picture_2.png">
+            </div>
+            <div class="col-md-12 col-lg-4 flex_center">
+            
+                <img src="images/example_picture_3.png">
             </div>
             </div>
             
@@ -663,6 +686,12 @@ margin-bottom:20px !important;
             	
                     </div>
                
+  
+          
+    
+
+
+
  
                
     </body>
